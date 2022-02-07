@@ -1,0 +1,134 @@
+* {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+
+body.login {
+    background-color: #34889c;
+    background: linear-gradient(to right, #34889c, #4678c8);
+
+}
+
+.card{
+    margin:0 1em;
+}
+.tabla{
+    margin-bottom: 3em;
+}
+
+.main{
+ height: 100vh;
+
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+   
+.contenido-main{
+    flex-grow: 1;
+  
+
+}
+
+.contenido{
+    flex-wrap: wrap;
+}
+
+
+.bg-login {
+    background-image: url('../img/login.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main-page, .menu-lateral {
+    background-color: #f8f9fc;
+}
+
+.callout-primary {
+     border-left-width: 6px;
+     border-left-color: #428bca;
+}
+.callout-success {
+    border-left-width: 6px;
+    border-left-color: #1cc88a;
+}
+.callout-info {
+    border-left-width: 6px;
+    border-left-color: #36b9cc;
+
+}
+.bg-gray{
+    background-color: rgb(240, 240, 240);
+}
+.bg-li{
+    background-color: rgb(251, 251, 251);
+}
+
+@media (max-width: 576px) {
+    .main{
+       height: 100%;
+    }
+   
+img{
+    width: 150px;
+}
+.titulos{
+    display: none;
+}
+.article{
+    padding: 2em 0;
+}
+.cod{
+    font-weight: bold;
+    
+}
+.encabezado{
+    justify-content: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+.cod::before{
+    content:"Cód: " ;
+}
+.ventas::before{
+    content: "Ventas: ";
+}
+.prod::before{
+    content: "Producto: ";
+}
+
+.card{
+  width: 90%;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+#main-page{
+    width: 100%;
+    
+}
+.dash{
+ 
+  text-align: center;
+}
+.boton{
+    position: absolute;
+    top: 10px;
+     left: 10px;
+    
+}
+.titulo-prod{
+    text-align: center;
+}
+
+
+
+
+}
